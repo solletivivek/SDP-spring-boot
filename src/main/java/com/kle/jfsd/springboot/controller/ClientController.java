@@ -35,6 +35,29 @@ public class ClientController
 	    mv.setViewName("login");//jsp file
 	    return mv;
 	  }
+	@GetMapping("404")
+	public ModelAndView errorr()
+	{
+		ModelAndView mv = new ModelAndView();
+		mv.setViewName("404");//jsp file
+		return mv;
+	}
+
+	@GetMapping("admin")
+	public ModelAndView adimn()
+	{
+		ModelAndView mv = new ModelAndView();
+		mv.setViewName("admin");//jsp file
+		return mv;
+	}
+	@GetMapping("appointment")
+	public ModelAndView appoint()
+	{
+		ModelAndView mv = new ModelAndView();
+		mv.setViewName("appointment");//jsp file
+		return mv;
+	}
+
 	@PostMapping("userreg")
 	public ModelAndView userreg(HttpServletRequest request)
 	{
@@ -125,8 +148,10 @@ public class ClientController
 	    mv.setViewName("404");//jsp file
 	    return mv;
 	  }
-	
-	
+
+
+
+
 	//admin
 	@GetMapping("viewallusers")
 	  public ModelAndView viewallusers()

@@ -61,21 +61,7 @@
         </div>
         <!-- End Preloader -->
 		
-		<!-- Get Pro Button -->
-		<ul class="pro-features">
-			<a class="get-pro" href="#">Get Pro</a>
-			<li class="big-title">Pro Version Available on Themeforest</li>
-			<li class="title">Pro Version Features</li>
-			<li>2+ premade home pages</li>
-			<li>20+ html pages</li>
-			<li>Color Plate With 12+ Colors</li>
-			<li>Sticky Header / Sticky Filters</li>
-			<li>Working Contact Form With Google Map</li>
-			<div class="button">
-				<a href="http://preview.themeforest.net/item/mediplus-medical-and-doctor-html-template/full_screen_preview/26665910?_ga=2.145092285.888558928.1591971968-344530658.1588061879" target="_blank" class="btn">Pro Version Demo</a>
-				<a href="https://themeforest.net/item/mediplus-medical-and-doctor-html-template/26665910" target="_blank" class="btn">Buy Pro Version</a>
-			</div>
-		</ul>
+
 <!-- 	
 sample -->
 
@@ -128,28 +114,28 @@ sample -->
 									<nav class="navigation">
 										<ul class="nav menu">
 											<li class="acdtive"><a href="#">Home </a>
-												<ul class="dropdown">
-													<li><a href="index.html">Home Page 1</a></li>
-												</ul>
+<%--												<ul class="dropdown">--%>
+<%--													<li><a href="index">Home Page 1</a></li>--%>
+<%--												</ul>--%>
 											</li>
 											<!-- <li><a href="#">Doctors </a></li> <i class="icofont-rounded-down">-->
 											<li><a href="doclist.html">Doctors </a></li>
 												
 											<li><a href="#">Services </i></a>
-												<ul class="dropdown">
-													<li><a href="404.jsp">404 Error</a></li>
-												</ul>
+<%--												<ul class="dropdown">--%>
+<%--													<li><a href="404.jsp">404 Error</a></li>--%>
+<%--												</ul>--%>
 											</li>
 											<li><a href="#">More </i></a>
 												<ul class="dropdown">
 													<li><a href="about.html">About us</a></li>
-													<li><a href="appointment2main.html">Appoinment</a></li>
+													<li><a href="appointment.jsp">Appoinment</a></li>
 													<li><a href="department.html">Department</a></li>
 													<li><a href="timetable.jsp">Time Table</a></li>
 												</ul>
 											</li>
 											<li><a href="contact.html">Contact Us</a></li>
-											<li><a href="login.jsp">Login</a></li>
+											<li><a href="login">Login</a></li>
 											
 										</ul>
 									</nav>
@@ -158,7 +144,7 @@ sample -->
 							</div>
 							<div class="col-lg-2 col-12">
 								<div class="get-quote">
-									<a href="appointment2main.html" class="btn">Appointment</a>
+									<a href="appointment.jsp" class="btn">Appointment</a>
 								</div>
 								
 							</div>
@@ -1030,7 +1016,7 @@ sample -->
 					<div class="row">
 						<div class="col-lg-12 col-md-12 col-12">
 							<div class="copyright-content">
-								<p>© Copyright 2018  |  All Rights Reserved by <a href="https://www.wpthemesgrid.com" target="_blank">wpthemesgrid.com</a> </p>
+								<p>© Copyright 2023  |  All Rights Reserved by <a href="https://www.svivek.tech" target="_blank">KL UNIVERSITY SDP-3</a> </p>
 							</div>
 						</div>
 					</div>

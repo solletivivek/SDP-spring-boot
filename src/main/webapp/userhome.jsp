@@ -60,24 +60,24 @@
             </div>
         </div>
         <!-- End Preloader -->
-		
-		<!-- Get Pro Button -->
-		<ul class="pro-features">
-			<a class="get-pro" href="#">Get Pro</a>
-			<li class="big-title">Pro Version Available on Themeforest</li>
-			<li class="title">Pro Version Features</li>
-			<li>2+ premade home pages</li>
-			<li>20+ html pages</li>
-			<li>Color Plate With 12+ Colors</li>
-			<li>Sticky Header / Sticky Filters</li>
-			<li>Working Contact Form With Google Map</li>
-			<div class="button">
-				<a href="http://preview.themeforest.net/item/mediplus-medical-and-doctor-html-template/full_screen_preview/26665910?_ga=2.145092285.888558928.1591971968-344530658.1588061879" target="_blank" class="btn">Pro Version Demo</a>
-				<a href="https://themeforest.net/item/mediplus-medical-and-doctor-html-template/26665910" target="_blank" class="btn">Buy Pro Version</a>
-			</div>
-		</ul>
-<!-- 	
-sample -->
+<%--		--%>
+<%--		<!-- Get Pro Button -->--%>
+<%--		<ul class="pro-features">--%>
+<%--			<a class="get-pro" href="#">Get Pro</a>--%>
+<%--			<li class="big-title">Pro Version Available on Themeforest</li>--%>
+<%--			<li class="title">Pro Version Features</li>--%>
+<%--			<li>2+ premade home pages</li>--%>
+<%--			<li>20+ html pages</li>--%>
+<%--			<li>Color Plate With 12+ Colors</li>--%>
+<%--			<li>Sticky Header / Sticky Filters</li>--%>
+<%--			<li>Working Contact Form With Google Map</li>--%>
+<%--			<div class="button">--%>
+<%--				<a href="http://preview.themeforest.net/item/mediplus-medical-and-doctor-html-template/full_screen_preview/26665910?_ga=2.145092285.888558928.1591971968-344530658.1588061879" target="_blank" class="btn">Pro Version Demo</a>--%>
+<%--				<a href="https://themeforest.net/item/mediplus-medical-and-doctor-html-template/26665910" target="_blank" class="btn">Buy Pro Version</a>--%>
+<%--			</div>--%>
+<%--		</ul>--%>
+<%--<!-- 	--%>
+
 
 		<!-- Header Area -->
 		<header class="header" >
@@ -88,17 +88,18 @@ sample -->
 						<div class="col-lg-6 col-md-5 col-12">
 							<!-- Contact -->
 							<ul class="top-link">
-								<li><a href="about.html">About</a></li>
-								<li><a href="doclist.html">Doctors</a></li>
-								<li><a href="contact.html">Contact</a></li>
-								<li><a href="faq.html">FAQ</a></li>
+								<li><a href="about.jsp">About</a></li>
+								<li><a href="ourDoctors">Doctors</a></li>
+								<li><a href="contact.jsp">Contact</a></li>
+								<li><a href="faq.jsp">FAQ</a></li>
 							</ul>
 							<!-- End Contact -->
 						</div>
 						<div class="col-lg-6 col-md-7 col-12">
 							<!-- Top Contact -->
 							<ul class="top-contact">
-								<li>welcome back ${uname}</li>
+								<li>Welcome  <span style="font-weight: bold;">${uname}</span></li>
+								<li><a href="/">Logout</a></li>
 							</ul>
 							<!-- End Top Contact -->
 						</div>
@@ -114,7 +115,7 @@ sample -->
 							<div class="col-lg-3 col-md-3 col-12">
 								<!-- Start Logo -->
 								<div class="logo">
-									<a href="index.html"><img src="img/logo.png" alt="#"></a>
+									<a href="index.jsp"><img src="img/logo.png" alt="#"></a>
 								</div>
 								<!-- End Logo -->
 								<!-- Mobile Nav -->
@@ -126,23 +127,23 @@ sample -->
 								<div class="main-menu">
 									<nav class="navigation">
 										<ul class="nav menu">
-											<li class="acdtive"><a href="#">Home </a>
-												<ul class="dropdown">
-													<li><a href="index.html">Home Page 1</a></li>
-												</ul>
+											<li class="acdtive"><a href="index.jsp">Home </a>
+<%--												<ul class="dropdown">--%>
+<%--													<li><a href="index.html">Home Page 1</a></li>--%>
+<%--												</ul>--%>
 											</li>
 											<!-- <li><a href="#">Doctors </a></li> <i class="icofont-rounded-down">-->
-											<li><a href="doclist.html">Doctors </a></li>
+											<li><a href="#	">Doctors </a></li>
 												
 											<li><a href="#">Services </i></a>
-												<ul class="dropdown">
-													<li><a href="404.jsp">404 Error</a></li>
-												</ul>
+<%--												<ul class="dropdown">--%>
+<%--													<li><a href="404.jsp">404 Error</a></li>--%>
+<%--												</ul>--%>
 											</li>
 											<li><a href="#">More </i></a>
 												<ul class="dropdown">
-													<li><a href="about.html">About us</a></li>
-													<li><a href="appointment2main.html">Appoinment</a></li>
+													<li><a href="about.jsp">About us</a></li>
+													<li><a href="appointment.jsp">Appoinment</a></li>
 													<li><a href="department.html">Department</a></li>
 													<li><a href="timetable.jsp">Time Table</a></li>
 												</ul>
@@ -157,7 +158,7 @@ sample -->
 							</div>
 							<div class="col-lg-2 col-12">
 								<div class="get-quote">
-									<a href="appointment2main.html" class="btn">Appointment</a>
+									<a href="appointment.jsp" class="btn">Appointment</a>
 								</div>
 								
 							</div>
@@ -364,7 +365,7 @@ sample -->
 						<div class="single-fun">
 							<i class="icofont icofont-home"></i>
 							<div class="content">
-								<span class="counter">3468</span>
+								<span class="counter">10</span>
 								<p>Hospital Rooms</p>
 							</div>
 						</div>
@@ -375,7 +376,7 @@ sample -->
 						<div class="single-fun">
 							<i class="icofont icofont-user-alt-3"></i>
 							<div class="content">
-								<span class="counter">557</span>
+								<span class="counter">23</span>
 								<p>Specialist Doctors</p>
 							</div>
 						</div>
@@ -386,7 +387,7 @@ sample -->
 						<div class="single-fun">
 							<i class="icofont-simple-smile"></i>
 							<div class="content">
-								<span class="counter">4379</span>
+								<span class="counter">100</span>
 								<p>Happy Patients</p>
 							</div>
 						</div>
@@ -397,7 +398,7 @@ sample -->
 						<div class="single-fun">
 							<i class="icofont icofont-table"></i>
 							<div class="content">
-								<span class="counter">32</span>
+								<span class="counter">3</span>
 								<p>Years of Experience</p>
 							</div>
 						</div>
@@ -626,174 +627,174 @@ sample -->
 			</div>
 		</section>
 		<!--/ End service -->
-		
-		<!-- Pricing Table -->
-		<section class="pricing-table section">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="section-title">
-							<h2>We Provide You The Best Treatment In Resonable Price</h2>
-							<img src="img/section-img.png" alt="#">
-							<p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<!-- Single Table -->
-					<div class="col-lg-4 col-md-12 col-12">
-						<div class="single-table">
-							<!-- Table Head -->
-							<div class="table-head">
-								<div class="icon">
-									<i class="icofont icofont-prescription"></i>
-								</div>
-								<h4 class="title">General Health Consultation</h4>
-								<div class="price">
-									<p class="amount">$49<span>/ Per Session</span></p>
-								</div>	
-							</div>
-							<!-- Table List -->
-							<ul class="table-list">
-								<li><i class="icofont icofont-ui-check"></i>Personalized health advice</li>
-								<li><i class="icofont icofont-ui-check"></i>Discuss general health concerns</li>
-								<li><i class="icofont icofont-ui-check"></i>Diet and lifestyle recommendations</li>
-								<li><i class="icofont icofont-ui-check"></i>Wellness tips</li>
-							</ul>
-							<div class="table-bottom">
-								<a class="btn" href="#">Book Now</a>
-							</div>
-							<!-- Table Bottom -->
-						</div>
-					</div>
-					<!-- End Single Table-->
-					<!-- Single Table -->
-					<div class="col-lg-4 col-md-12 col-12">
-						<div class="single-table">
-							<!-- Table Head -->
-							<div class="table-head">
-								<div class="icon">
-									<i class="icofont-meeting-add"></i>
-								</div>
-								<h4 class="title">Nutritional <br>Consultation</h4>
-								<div class="price">
-									<p class="amount">$59<span>/ Per Session</span></p>
-								</div>
-							</div>
-							<!-- Table List -->
-							<ul class="table-list">
-								<li><i class="icofont icofont-ui-check"></i>Personalized nutrition <br>advice</li>
-								<li><i class="icofont icofont-ui-check"></i>Dietary assessment</li>
-								<li><i class="icofont icofont-ui-check"></i>Meal planning guidance</li>
-								<li><i class="icofont icofont-ui-check"></i>Specialized nutrition plans</li>
-							</ul>
-							<div class="table-bottom">
-								<a class="btn" href="#">Book Now</a>
-							</div>
-							<!-- Table Bottom -->
-						</div>
-					</div>
-					<!-- End Single Table-->
-					<!-- Single Table -->
-					<div class="col-lg-4 col-md-12 col-12">
-						<div class="single-table">
-							<!-- Table Head -->
-							<div class="table-head">
-								<div class="icon">
-									<i class="icofont icofont-doctor-alt"></i>
-								</div>
-								<h4 class="title">Comprehensive Health Package</h4>
-								<div class="price">
-									<p class="amount">$99<span>/ Per Session</span></p>
-								</div>
-							</div>
-							<!-- Table List -->
-							<ul class="table-list">
-								<li><i class="icofont icofont-ui-check"></i>Combined health and nutrition consultation</li>
-								<li><i class="icofont icofont-ui-check"></i>In-depth health analysis</li>
-								<li><i class="icofont icofont-ui-check"></i>Customized diet and lifestyle plans</li>
-								<li><i class="icofont icofont-ui-check"></i>Continuous support, follow-ups</li>
-							</ul>
-							<div class="table-bottom">
-								<a class="btn" href="#">Book Now</a>
-							</div>
-							<!-- Table Bottom -->
-						</div>
-					</div>
-					<!-- End Single Table-->
-				</div>
-			</div>
-		</section>
-		<!--/ End Online Nutrition and Health Consultation Pricing Table -->
-		
-		<!--/ End Pricing Table -->
-		
-		<!-- Start Blog Area -->
-		<section class="blog section" id="blog">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="section-title">
-							<h2>Keep up with Our Most Recent Medical News.</h2>
-							<img src="img/section-img.png" alt="#">
-							<p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-4 col-md-6 col-12">
-						<!-- Single Blog -->
-						<div class="single-news">
-							<div class="news-head">
-								<img src="img/blog1.jpg" alt="#">
-							</div>
-							<div class="news-body">
-								<div class="news-content">
-									<div class="date">22 Aug, 2020</div>
-									<h2><a href="blog-single.html">We have annnocuced our new product.</a></h2>
-									<p class="text">Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed.</p>
-								</div>
-							</div>
-						</div>
-						<!-- End Single Blog -->
-					</div>
-					<div class="col-lg-4 col-md-6 col-12">
-						<!-- Single Blog -->
-						<div class="single-news">
-							<div class="news-head">
-								<img src="img/blog2.jpg" alt="#">
-							</div>
-							<div class="news-body">
-								<div class="news-content">
-									<div class="date">15 Jul, 2020</div>
-									<h2><a href="blog-single.html">Top five way for solving teeth problems.</a></h2>
-									<p class="text">Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed.</p>
-								</div>
-							</div>
-						</div>
-						<!-- End Single Blog -->
-					</div>
-					<div class="col-lg-4 col-md-6 col-12">
-						<!-- Single Blog -->
-						<div class="single-news">
-							<div class="news-head">
-								<img src="img/blog3.jpg" alt="#">
-							</div>
-							<div class="news-body">
-								<div class="news-content">
-									<div class="date">05 Jan, 2020</div>
-									<h2><a href="blog-single.html">We provide highly business soliutions.</a></h2>
-									<p class="text">Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed.</p>
-								</div>
-							</div>
-						</div>
-						<!-- End Single Blog -->
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End Blog Area -->
-		
+
+<%--		<!-- Pricing Table -->--%>
+<%--		<section class="pricing-table section">--%>
+<%--			<div class="container">--%>
+<%--				<div class="row">--%>
+<%--					<div class="col-lg-12">--%>
+<%--						<div class="section-title">--%>
+<%--							<h2>We Provide You The Best Treatment In Resonable Price</h2>--%>
+<%--							<img src="img/section-img.png" alt="#">--%>
+<%--							<p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>--%>
+<%--						</div>--%>
+<%--					</div>--%>
+<%--				</div>--%>
+<%--				<div class="row">--%>
+<%--					<!-- Single Table -->--%>
+<%--					<div class="col-lg-4 col-md-12 col-12">--%>
+<%--						<div class="single-table">--%>
+<%--							<!-- Table Head -->--%>
+<%--							<div class="table-head">--%>
+<%--								<div class="icon">--%>
+<%--									<i class="icofont icofont-prescription"></i>--%>
+<%--								</div>--%>
+<%--								<h4 class="title">General Health Consultation</h4>--%>
+<%--								<div class="price">--%>
+<%--									<p class="amount">$49<span>/ Per Session</span></p>--%>
+<%--								</div>--%>
+<%--							</div>--%>
+<%--							<!-- Table List -->--%>
+<%--							<ul class="table-list">--%>
+<%--								<li><i class="icofont icofont-ui-check"></i>Personalized health advice</li>--%>
+<%--								<li><i class="icofont icofont-ui-check"></i>Discuss general health concerns</li>--%>
+<%--								<li><i class="icofont icofont-ui-check"></i>Diet and lifestyle recommendations</li>--%>
+<%--								<li><i class="icofont icofont-ui-check"></i>Wellness tips</li>--%>
+<%--							</ul>--%>
+<%--							<div class="table-bottom">--%>
+<%--								<a class="btn" href="#">Book Now</a>--%>
+<%--							</div>--%>
+<%--							<!-- Table Bottom -->--%>
+<%--						</div>--%>
+<%--					</div>--%>
+<%--					<!-- End Single Table-->--%>
+<%--					<!-- Single Table -->--%>
+<%--					<div class="col-lg-4 col-md-12 col-12">--%>
+<%--						<div class="single-table">--%>
+<%--							<!-- Table Head -->--%>
+<%--							<div class="table-head">--%>
+<%--								<div class="icon">--%>
+<%--									<i class="icofont-meeting-add"></i>--%>
+<%--								</div>--%>
+<%--								<h4 class="title">Nutritional <br>Consultation</h4>--%>
+<%--								<div class="price">--%>
+<%--									<p class="amount">$59<span>/ Per Session</span></p>--%>
+<%--								</div>--%>
+<%--							</div>--%>
+<%--							<!-- Table List -->--%>
+<%--							<ul class="table-list">--%>
+<%--								<li><i class="icofont icofont-ui-check"></i>Personalized nutrition <br>advice</li>--%>
+<%--								<li><i class="icofont icofont-ui-check"></i>Dietary assessment</li>--%>
+<%--								<li><i class="icofont icofont-ui-check"></i>Meal planning guidance</li>--%>
+<%--								<li><i class="icofont icofont-ui-check"></i>Specialized nutrition plans</li>--%>
+<%--							</ul>--%>
+<%--							<div class="table-bottom">--%>
+<%--								<a class="btn" href="#">Book Now</a>--%>
+<%--							</div>--%>
+<%--							<!-- Table Bottom -->--%>
+<%--						</div>--%>
+<%--					</div>--%>
+<%--					<!-- End Single Table-->--%>
+<%--					<!-- Single Table -->--%>
+<%--					<div class="col-lg-4 col-md-12 col-12">--%>
+<%--						<div class="single-table">--%>
+<%--							<!-- Table Head -->--%>
+<%--							<div class="table-head">--%>
+<%--								<div class="icon">--%>
+<%--									<i class="icofont icofont-doctor-alt"></i>--%>
+<%--								</div>--%>
+<%--								<h4 class="title">Comprehensive Health Package</h4>--%>
+<%--								<div class="price">--%>
+<%--									<p class="amount">$99<span>/ Per Session</span></p>--%>
+<%--								</div>--%>
+<%--							</div>--%>
+<%--							<!-- Table List -->--%>
+<%--							<ul class="table-list">--%>
+<%--								<li><i class="icofont icofont-ui-check"></i>Combined health and nutrition consultation</li>--%>
+<%--								<li><i class="icofont icofont-ui-check"></i>In-depth health analysis</li>--%>
+<%--								<li><i class="icofont icofont-ui-check"></i>Customized diet and lifestyle plans</li>--%>
+<%--								<li><i class="icofont icofont-ui-check"></i>Continuous support, follow-ups</li>--%>
+<%--							</ul>--%>
+<%--							<div class="table-bottom">--%>
+<%--								<a class="btn" href="#">Book Now</a>--%>
+<%--							</div>--%>
+<%--							<!-- Table Bottom -->--%>
+<%--						</div>--%>
+<%--					</div>--%>
+<%--					<!-- End Single Table-->--%>
+<%--				</div>--%>
+<%--			</div>--%>
+<%--		</section>--%>
+<%--		<!--/ End Online Nutrition and Health Consultation Pricing Table -->--%>
+<%--		--%>
+<%--		<!--/ End Pricing Table -->--%>
+<%--		--%>
+<%--		<!-- Start Blog Area -->--%>
+<%--		<section class="blog section" id="blog">--%>
+<%--			<div class="container">--%>
+<%--				<div class="row">--%>
+<%--					<div class="col-lg-12">--%>
+<%--						<div class="section-title">--%>
+<%--							<h2>Keep up with Our Most Recent Medical News.</h2>--%>
+<%--							<img src="img/section-img.png" alt="#">--%>
+<%--							<p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>--%>
+<%--						</div>--%>
+<%--					</div>--%>
+<%--				</div>--%>
+<%--				<div class="row">--%>
+<%--					<div class="col-lg-4 col-md-6 col-12">--%>
+<%--						<!-- Single Blog -->--%>
+<%--						<div class="single-news">--%>
+<%--							<div class="news-head">--%>
+<%--								<img src="img/blog1.jpg" alt="#">--%>
+<%--							</div>--%>
+<%--							<div class="news-body">--%>
+<%--								<div class="news-content">--%>
+<%--									<div class="date">22 Aug, 2020</div>--%>
+<%--									<h2><a href="blog-single.html">We have annnocuced our new product.</a></h2>--%>
+<%--									<p class="text">Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed.</p>--%>
+<%--								</div>--%>
+<%--							</div>--%>
+<%--						</div>--%>
+<%--						<!-- End Single Blog -->--%>
+<%--					</div>--%>
+<%--					<div class="col-lg-4 col-md-6 col-12">--%>
+<%--						<!-- Single Blog -->--%>
+<%--						<div class="single-news">--%>
+<%--							<div class="news-head">--%>
+<%--								<img src="img/blog2.jpg" alt="#">--%>
+<%--							</div>--%>
+<%--							<div class="news-body">--%>
+<%--								<div class="news-content">--%>
+<%--									<div class="date">15 Jul, 2020</div>--%>
+<%--									<h2><a href="blog-single.html">Top five way for solving teeth problems.</a></h2>--%>
+<%--									<p class="text">Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed.</p>--%>
+<%--								</div>--%>
+<%--							</div>--%>
+<%--						</div>--%>
+<%--						<!-- End Single Blog -->--%>
+<%--					</div>--%>
+<%--					<div class="col-lg-4 col-md-6 col-12">--%>
+<%--						<!-- Single Blog -->--%>
+<%--						<div class="single-news">--%>
+<%--							<div class="news-head">--%>
+<%--								<img src="img/blog3.jpg" alt="#">--%>
+<%--							</div>--%>
+<%--							<div class="news-body">--%>
+<%--								<div class="news-content">--%>
+<%--									<div class="date">05 Jan, 2020</div>--%>
+<%--									<h2><a href="blog-single.html">We provide highly business soliutions.</a></h2>--%>
+<%--									<p class="text">Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed.</p>--%>
+<%--								</div>--%>
+<%--							</div>--%>
+<%--						</div>--%>
+<%--						<!-- End Single Blog -->--%>
+<%--					</div>--%>
+<%--				</div>--%>
+<%--			</div>--%>
+<%--		</section>--%>
+<%--		<!-- End Blog Area -->--%>
+<%--		--%>
 		<!-- Start clients -->
 		<div class="clients overlay">
 			<div class="container">
@@ -804,6 +805,8 @@ sample -->
 								<img src="img/client1.png" alt="#">
 							</div>
 							<div class="single-clients">
+
+
 								<img src="img/client2.png" alt="#">
 							</div>
 							<div class="single-clients">
@@ -924,104 +927,104 @@ sample -->
 		<!-- End Appointment -->
 		
 		<!-- Start Newsletter Area -->
-		<section class="newsletter section">
-			<div class="container">
-				<div class="row ">
-					<div class="col-lg-6  col-12">
-						<!-- Start Newsletter Form -->
-						<div class="subscribe-text ">
-							<h6>Sign up for newsletter</h6>
-							<p class="">Cu qui soleat partiendo urbanitas. Eum aperiri indoctum eu,<br> homero alterum.</p>
-						</div>
-						<!-- End Newsletter Form -->
-					</div>
-					<div class="col-lg-6  col-12">
-						<!-- Start Newsletter Form -->
-						<div class="subscribe-form ">
-							<form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">
-								<input name="EMAIL" placeholder="Your email address" class="common-input" onfocus="this.placeholder = ''"
-									onblur="this.placeholder = 'Your email address'" required="" type="email">
-								<button class="btn">Subscribe</button>
-							</form>
-						</div>
-						<!-- End Newsletter Form -->
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- /End Newsletter Area -->
-		
-		<!-- Footer Area -->
-		<footer id="footer" class="footer ">
-			<!-- Footer Top -->
-			<div class="footer-top">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-3 col-md-6 col-12">
-							<div class="single-footer">
-								<h2>About Us</h2>
-								<p>Lorem ipsum dolor sit am consectetur adipisicing elit do eiusmod tempor incididunt ut labore dolore magna.</p>
-								<!-- Social -->
-								<ul class="social">
-									<li><a href="#"><i class="icofont-facebook"></i></a></li>
-									<li><a href="#"><i class="icofont-google-plus"></i></a></li>
-									<li><a href="#"><i class="icofont-twitter"></i></a></li>
-									<li><a href="#"><i class="icofont-vimeo"></i></a></li>
-									<li><a href="#"><i class="icofont-pinterest"></i></a></li>
-								</ul>
-								<!-- End Social -->
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-6 col-12">
-							<div class="single-footer f-link">
-								<h2>Quick Links</h2>
-								<div class="row">
-									<div class="col-lg-6 col-md-6 col-12">
-										<ul>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Home</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>About Us</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Services</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Our Cases</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Other Links</a></li>	
-										</ul>
-									</div>
-									<div class="col-lg-6 col-md-6 col-12">
-										<ul>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Consuling</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Finance</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Testimonials</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>FAQ</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Contact Us</a></li>	
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-6 col-12">
-							<div class="single-footer">
-								<h2>Open Hours</h2>
-								<p>Lorem ipsum dolor sit ame consectetur adipisicing elit do eiusmod tempor incididunt.</p>
-								<ul class="time-sidual">
-									<li class="day">Monday - Fridayp <span>8.00-20.00</span></li>
-									<li class="day">Saturday <span>9.00-18.30</span></li>
-									<li class="day">Monday - Thusday <span>9.00-15.00</span></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-6 col-12">
-							<div class="single-footer">
-								<h2>Newsletter</h2>
-								<p>subscribe to our newsletter to get allour news in your inbox.. Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
-								<form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">
-									<input name="email" placeholder="Email Address" class="common-input" onfocus="this.placeholder = ''"
-										onblur="this.placeholder = 'Your email address'" required="" type="email">
-									<button class="button"><i class="icofont icofont-paper-plane"></i></button>
-								</form>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+<%--		<section class="newsletter section">--%>
+<%--			<div class="container">--%>
+<%--				<div class="row ">--%>
+<%--					<div class="col-lg-6  col-12">--%>
+<%--						<!-- Start Newsletter Form -->--%>
+<%--						<div class="subscribe-text ">--%>
+<%--							<h6>Sign up for newsletter</h6>--%>
+<%--							<p class="">Cu qui soleat partiendo urbanitas. Eum aperiri indoctum eu,<br> homero alterum.</p>--%>
+<%--						</div>--%>
+<%--						<!-- End Newsletter Form -->--%>
+<%--					</div>--%>
+<%--					<div class="col-lg-6  col-12">--%>
+<%--						<!-- Start Newsletter Form -->--%>
+<%--						<div class="subscribe-form ">--%>
+<%--							<form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">--%>
+<%--								<input name="EMAIL" placeholder="Your email address" class="common-input" onfocus="this.placeholder = ''"--%>
+<%--									onblur="this.placeholder = 'Your email address'" required="" type="email">--%>
+<%--								<button class="btn">Subscribe</button>--%>
+<%--							</form>--%>
+<%--						</div>--%>
+<%--						<!-- End Newsletter Form -->--%>
+<%--					</div>--%>
+<%--				</div>--%>
+<%--			</div>--%>
+<%--		</section>--%>
+<%--		<!-- /End Newsletter Area -->--%>
+<%--		--%>
+<%--		<!-- Footer Area -->--%>
+<%--		<footer id="footer" class="footer ">--%>
+<%--			<!-- Footer Top -->--%>
+<%--			<div class="footer-top">--%>
+<%--				<div class="container">--%>
+<%--					<div class="row">--%>
+<%--						<div class="col-lg-3 col-md-6 col-12">--%>
+<%--							<div class="single-footer">--%>
+<%--								<h2>About Us</h2>--%>
+<%--								<p>Lorem ipsum dolor sit am consectetur adipisicing elit do eiusmod tempor incididunt ut labore dolore magna.</p>--%>
+<%--								<!-- Social -->--%>
+<%--								<ul class="social">--%>
+<%--									<li><a href="#"><i class="icofont-facebook"></i></a></li>--%>
+<%--									<li><a href="#"><i class="icofont-google-plus"></i></a></li>--%>
+<%--									<li><a href="#"><i class="icofont-twitter"></i></a></li>--%>
+<%--									<li><a href="#"><i class="icofont-vimeo"></i></a></li>--%>
+<%--									<li><a href="#"><i class="icofont-pinterest"></i></a></li>--%>
+<%--								</ul>--%>
+<%--								<!-- End Social -->--%>
+<%--							</div>--%>
+<%--						</div>--%>
+<%--						<div class="col-lg-3 col-md-6 col-12">--%>
+<%--							<div class="single-footer f-link">--%>
+<%--								<h2>Quick Links</h2>--%>
+<%--								<div class="row">--%>
+<%--									<div class="col-lg-6 col-md-6 col-12">--%>
+<%--										<ul>--%>
+<%--											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Home</a></li>--%>
+<%--											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>About Us</a></li>--%>
+<%--											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Services</a></li>--%>
+<%--											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Our Cases</a></li>--%>
+<%--											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Other Links</a></li>	--%>
+<%--										</ul>--%>
+<%--									</div>--%>
+<%--									<div class="col-lg-6 col-md-6 col-12">--%>
+<%--										<ul>--%>
+<%--											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Consuling</a></li>--%>
+<%--											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Finance</a></li>--%>
+<%--											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Testimonials</a></li>--%>
+<%--											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>FAQ</a></li>--%>
+<%--											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Contact Us</a></li>	--%>
+<%--										</ul>--%>
+<%--									</div>--%>
+<%--								</div>--%>
+<%--							</div>--%>
+<%--						</div>--%>
+<%--						<div class="col-lg-3 col-md-6 col-12">--%>
+<%--							<div class="single-footer">--%>
+<%--								<h2>Open Hours</h2>--%>
+<%--								<p>Lorem ipsum dolor sit ame consectetur adipisicing elit do eiusmod tempor incididunt.</p>--%>
+<%--								<ul class="time-sidual">--%>
+<%--									<li class="day">Monday - Fridayp <span>8.00-20.00</span></li>--%>
+<%--									<li class="day">Saturday <span>9.00-18.30</span></li>--%>
+<%--									<li class="day">Monday - Thusday <span>9.00-15.00</span></li>--%>
+<%--								</ul>--%>
+<%--							</div>--%>
+<%--						</div>--%>
+<%--						<div class="col-lg-3 col-md-6 col-12">--%>
+<%--							<div class="single-footer">--%>
+<%--								<h2>Newsletter</h2>--%>
+<%--								<p>subscribe to our newsletter to get allour news in your inbox.. Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>--%>
+<%--								<form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">--%>
+<%--									<input name="email" placeholder="Email Address" class="common-input" onfocus="this.placeholder = ''"--%>
+<%--										onblur="this.placeholder = 'Your email address'" required="" type="email">--%>
+<%--									<button class="button"><i class="icofont icofont-paper-plane"></i></button>--%>
+<%--								</form>--%>
+<%--							</div>--%>
+<%--						</div>--%>
+<%--					</div>--%>
+<%--				</div>--%>
+<%--			</div>--%>
 			<!--/ End Footer Top -->
 			<!-- Copyright -->
 			<div class="copyright">
@@ -1029,7 +1032,7 @@ sample -->
 					<div class="row">
 						<div class="col-lg-12 col-md-12 col-12">
 							<div class="copyright-content">
-								<p>© Copyright 2018  |  All Rights Reserved by <a href="https://www.wpthemesgrid.com" target="_blank">wpthemesgrid.com</a> </p>
+								<p>© Copyright 2023  |  All Rights Reserved by <a href="https://www.svivek.tech" target="_blank">KL UNIVERSITY SDP-3</a> </p>
 							</div>
 						</div>
 					</div>

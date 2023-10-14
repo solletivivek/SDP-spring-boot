@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en-US">
 <head>
@@ -323,7 +322,7 @@ var pm_error_object = {"valid_email":"Please enter a valid e-mail address.","val
 <div class="entry-content">
 <div class="vc_row wpb_row vc_row-fluid vc_custom_1597125450001"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner vc_custom_1597125465293"><div class="wpb_wrapper"><div role="form" class="wpcf7" id="wpcf7-f4257-p4025-o1" lang="en-US" dir="ltr">
 <div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
-<form action="/mediplus/appoinment/#wpcf7-f4257-p4025-o1" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+<form action="/bookappointment" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
 <div style="display: none;">
 <input type="hidden" name="_wpcf7" value="4257" />
 <input type="hidden" name="_wpcf7_version" value="5.6.3" />
@@ -340,12 +339,12 @@ var pm_error_object = {"valid_email":"Please enter a valid e-mail address.","val
 <div class="row">
 <div class="col-lg-6 col-md-6 col-12">
 <div class="form-group">
-<span class="wpcf7-form-control-wrap" data-name="your-name"><input type="text" name="your-name" value size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Name" /></span>
+<span class="wpcf7-form-control-wrap" data-name="your-name"><input type="text" name="name" value size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Name" /></span>
 </div>
 </div>
 <div class="col-lg-6 col-md-6 col-12">
 <div class="form-group">
-<span class="wpcf7-form-control-wrap" data-name="email-744"><input type="email" name="email-744" value size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email Address" /></span>
+<span class="wpcf7-form-control-wrap" data-name="email-744"><input type="email" name="email" value size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email Address" /></span>
 </div>
 </div>
 <div class="col-lg-6 col-md-6 col-12">
@@ -355,7 +354,6 @@ var pm_error_object = {"valid_email":"Please enter a valid e-mail address.","val
 </div>
 <div class="col-lg-6 col-md-6 col-12">
 <div class="form-group">
-<span class="wpcf7-form-control-wrap" data-name="your-browser"><select name="your-browser" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false"><option value="Department">Department</option><option value="Neurology">Neurology</option><option value="Dentistry">Dentistry</option><option value="Gastroenterology">Gastroenterology</option><option value="Orthopedagogy">Orthopedagogy</option></select></span>
 </div>
 </div>
 <div class="col-lg-6 col-md-6 col-12">
@@ -365,17 +363,17 @@ var pm_error_object = {"valid_email":"Please enter a valid e-mail address.","val
 </div>
 <div class="col-lg-6 col-md-6 col-12">
 <div class="form-group">
-<span class="wpcf7-form-control-wrap" data-name="date-215"><input type="date" name="date-215" value class="wpcf7-form-control wpcf7-date wpcf7-validates-as-required wpcf7-validates-as-date" aria-required="true" aria-invalid="false" placeholder="Date" /></span>
+<span class="wpcf7-form-control-wrap" data-name="date-215"><input type="date" name="date" value class="wpcf7-form-control wpcf7-date wpcf7-validates-as-required wpcf7-validates-as-date" aria-required="true" aria-invalid="false" placeholder="Date" /></span>
 </div>
 </div>
 <div class="col-12">
 <div class="form-group textarea">
-<span class="wpcf7-form-control-wrap" data-name="textarea-331"><textarea name="textarea-331" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Write Your Message Here..."></textarea></span>
+<span class="wpcf7-form-control-wrap" data-name="textarea-331"><textarea name="msg" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Write Your Message Here..."></textarea></span>
 </div>
 </div>
 <div class="col-12">
 <div class="form-group button">
-<button type="submit" class="btn primary">Book An Appointment</button>
+<button type="submit" value="appointment" class="btn primary">Book An Appointment</button>
 </div>
 </div>
 </div>

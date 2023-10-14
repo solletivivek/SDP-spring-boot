@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="https://gmpg.org/xfn/11">
 <link rel="icon" type="image/png" href="https://preview.wpthemesgrid.com/mediplus/wp-content/uploads/2020/08/favicon-1.png">
-<title>Doctors &#8211; Mediplus</title>
+<title>Doctors &#8211; NutriSage</title>
 <meta name="robots" content="max-image-preview:large" />
 <link rel="dns-prefetch" href="//fonts.googleapis.com" />
 <link rel="alternate" type="application/rss+xml" title="Mediplus &raquo; Feed" href="https://preview.wpthemesgrid.com/mediplus/feed/" />
