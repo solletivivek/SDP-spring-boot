@@ -373,7 +373,24 @@ var pm_error_object = {"valid_email":"Please enter a valid e-mail address.","val
 </div>
 <div class="col-12">
 <div class="form-group button">
-<button type="submit" value="appointment" class="btn primary">Book An Appointment</button>
+	<button id="signupButton">Book Now</button>
+
+	<script>
+		document.getElementById("signupButton").addEventListener("click", function() {
+			window.location.href = "timetable.jsp";
+		});
+	</script>
+	<style>
+		#signupButton {
+			background-color: #007BFF;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			cursor: pointer;
+		}
+
+	</style>
+
 </div>
 </div>
 </div>
@@ -422,7 +439,9 @@ var pm_error_object = {"valid_email":"Please enter a valid e-mail address.","val
 </label>
 </p>
 <p>
-<input type="submit" value="Sign up" />
+	<form action="timetable.jsp">
+		<input type="submit" value="Sign up" />
+	</form>
 </p></div><label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value tabindex="-1" autocomplete="off" /></label><input type="hidden" name="_mc4wp_timestamp" value="1696958196" /><input type="hidden" name="_mc4wp_form_id" value="906" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /><div class="mc4wp-response"></div></form>
 </div>
 </div>

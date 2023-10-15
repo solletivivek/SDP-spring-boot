@@ -4,6 +4,12 @@ import java.util.List;
 
 import com.kle.jfsd.springboot.model.Users;
 
-public interface AdminService  {
-	public List<Users>  viewallusers();
-}
+
+	public interface AdminService {
+		List<Users> viewAllUsers();
+
+		List<Users> viewallusers();
+
+		void deleteUserById(Integer userId);
+	}
+

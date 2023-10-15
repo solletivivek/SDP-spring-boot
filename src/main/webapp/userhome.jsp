@@ -127,13 +127,13 @@
 								<div class="main-menu">
 									<nav class="navigation">
 										<ul class="nav menu">
-											<li class="acdtive"><a href="index.jsp">Home </a>
+											<li class="acdtive"><a href="/">Home </a>
 <%--												<ul class="dropdown">--%>
 <%--													<li><a href="index.html">Home Page 1</a></li>--%>
 <%--												</ul>--%>
 											</li>
 											<!-- <li><a href="#">Doctors </a></li> <i class="icofont-rounded-down">-->
-											<li><a href="#	">Doctors </a></li>
+											<li><a href="ourDoctors">Doctors </a></li>
 												
 											<li><a href="#">Services </i></a>
 <%--												<ul class="dropdown">--%>
@@ -142,8 +142,8 @@
 											</li>
 											<li><a href="#">More </i></a>
 												<ul class="dropdown">
-													<li><a href="about.jsp">About us</a></li>
-													<li><a href="appointment.jsp">Appoinment</a></li>
+													<li><a href="about">About us</a></li>
+													<li><a href="appointment">Appoinment</a></li>
 													<li><a href="department.html">Department</a></li>
 													<li><a href="timetable.jsp">Time Table</a></li>
 												</ul>
@@ -493,6 +493,28 @@
 				</div>
 			</div>
 		</section>
+
+		<iframe
+				src="https://www.chatbase.co/chatbot-iframe/lTOT_T1zZF-9fNshCWez4"
+				width="100%"
+				style="height: 100%; min-height: 700px"
+				frameborder="0"
+		></iframe>
+
+		<script>
+			window.embeddedChatbotConfig = {
+				chatbotId: "lTOT_T1zZF-9fNshCWez4",
+				domain: "www.chatbase.co"
+			}
+		</script>
+		<script
+				src="https://www.chatbase.co/embed.min.js"
+				chatbotId="lTOT_T1zZF-9fNshCWez4"
+				domain="www.chatbase.co"
+				defer>
+		</script>
+
+
 		<!--/ End Call to action -->
 		
 		<!-- Start portfolio -->

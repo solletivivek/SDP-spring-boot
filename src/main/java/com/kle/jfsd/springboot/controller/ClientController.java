@@ -154,13 +154,12 @@ public class ClientController
 
 	//admin
 	@GetMapping("viewallusers")
-	  public ModelAndView viewallusers()
-	  {
-	    ModelAndView mv = new ModelAndView();
-	    mv.setViewName("viewallusers");
-	    List<Users> userlist=adminService.viewallusers();
-	    mv.addObject("userdata",userlist);
-	    return mv;
-	  }
+	public ModelAndView viewAllUsers() {
+		ModelAndView mv = new ModelAndView();
+		mv.setViewName("viewallusers");
+		List<Users> userlist = adminService.viewAllUsers();
+		mv.addObject("userdata", userlist);
+		return mv;
+	}
 	
 }
