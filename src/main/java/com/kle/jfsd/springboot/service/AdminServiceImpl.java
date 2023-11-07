@@ -1,33 +1,38 @@
 package com.kle.jfsd.springboot.service;
 
-import com.kle.jfsd.springboot.model.Users;
-import com.kle.jfsd.springboot.repository.UsersRepository;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
+import com.kle.jfsd.springboot.model.Doctor;
+import com.kle.jfsd.springboot.model.Users;
+import com.kle.jfsd.springboot.repository.DoctorRepository;
+import com.kle.jfsd.springboot.repository.UsersRepository;
 
 @Service
-public class AdminServiceImpl implements AdminService {
+public class AdminServiceImpl implements AdminService
+{
 
 	@Autowired
+	private DoctorRepository doctorRepository;
+	@Autowired
 	private UsersRepository usersRepository;
-
 	@Override
-	public List<Users> viewAllUsers() {
+	
+	public String adddoctor(Doctor d) 
+	{
+		doctorRepository.save(d);
+		return "Doctor Added Successfully";
+	}
+	@Override
+	public List<Doctor> viewalldoctors()
+	{
+		return doctorRepository.findAll();
+	}
+	@Override
+	public List<Users> viewallusers() {
 		return usersRepository.findAll();
 	}
 
-	@Override
-	public List<Users> viewallusers() {
-		return null;
-	}
-
-	@Override
-	public void deleteUserById(Integer userId) {
-		usersRepository.deleteById(userId);
-	}
 }
-
-
-

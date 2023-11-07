@@ -39,7 +39,7 @@
 		
 		<!-- Medipro CSS -->
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
 		
     </head>
@@ -158,7 +158,7 @@
 							</div>
 							<div class="col-lg-2 col-12">
 								<div class="get-quote">
-									<a href="appointment.jsp" class="btn">Appointment</a>
+									<a href="appointment" class="btn">Appointment</a>
 								</div>
 								
 							</div>

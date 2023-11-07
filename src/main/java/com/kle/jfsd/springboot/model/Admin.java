@@ -1,4 +1,4 @@
-package com.kle.jfsd.springboot.model;
+   package com.kle.jfsd.springboot.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

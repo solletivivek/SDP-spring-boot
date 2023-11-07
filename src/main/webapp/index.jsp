@@ -13,34 +13,34 @@
         <title>NutriSage</title>
 		
 		<!-- Favicon -->
-        <link rel="icon" href="img/favicon.png">
+        <link rel="icon" href="  img/favicon.png">
 		
 		<!-- Google Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
 
 		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href=" css/bootstrap.min.css">
 		<!-- Nice Select CSS -->
-		<link rel="stylesheet" href="css/nice-select.css">
+		<link rel="stylesheet" href=" css/nice-select.css">
 		<!-- Font Awesome CSS -->
-        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href=" css/font-awesome.min.css">
 		<!-- icofont CSS -->
-        <link rel="stylesheet" href="css/icofont.css">
+        <link rel="stylesheet" href=" css/icofont.css">
 		<!-- Slicknav -->
-		<link rel="stylesheet" href="css/slicknav.min.css">
-		<!-- Owl Carousel CSS -->
-        <link rel="stylesheet" href="css/owl-carousel.css">
+		<link rel="stylesheet" href=" css/slicknav.min.css">
+		<!-- Owl Carousel CSS --> 
+        <link rel="stylesheet" href=" css/owl-carousel.css">
 		<!-- Datepicker CSS -->
-		<link rel="stylesheet" href="css/datepicker.css">
+		<link rel="stylesheet" href=" css/datepicker.css">
 		<!-- Animate CSS -->
-        <link rel="stylesheet" href="css/animate.min.css">
-		<!-- Magnific Popup CSS -->
-        <link rel="stylesheet" href="css/magnific-popup.css">
-		
+        <link rel="stylesheet" href=" css/animate.min.css">
+		<!-- Magnific Popup CSS --
+        <link rel="stylesheet" href=" css/magnific-popup.css">
+	
 		<!-- Medipro CSS -->
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href=" css/normalize.css">
+        <link rel="stylesheet" href=" css/style.css">
+        <link rel="stylesheet" href=" css/responsive.css">
 		
     </head>
     <body>
@@ -101,7 +101,7 @@ sample -->
 							<div class="col-lg-3 col-md-3 col-12">
 								<!-- Start Logo -->
 								<div class="logo">
-									<a href="index.html"><img src="img/logo.png" alt="#"></a>
+									<a href="index.html"><img src=" img/logo.png" alt="#"></a>
 								</div>
 								<!-- End Logo -->
 								<!-- Mobile Nav -->
@@ -144,7 +144,7 @@ sample -->
 							</div>
 							<div class="col-lg-2 col-12">
 								<div class="get-quote">
-									<a href="appointment.jsp" class="btn">Appointment</a>
+									<a href="appointment" class="btn">Appointment</a>
 								</div>
 								
 							</div>
@@ -161,7 +161,7 @@ sample -->
 		<section class="slider">
 			<div class="hero-slider">
 				<!-- Start Single Slider -->
-				<div class="single-slider" style="background-image:url('img/slider2.jpg')">
+				<div class="single-slider" style="background-image:url(' img/slider2.jpg')">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-7">
@@ -182,7 +182,7 @@ sample -->
 				</div>
 				<!-- End Single Slider -->
 				<!-- Start Single Slider -->
-				<div class="single-slider" style="background-image:url('img/slider.jpg')">
+				<div class="single-slider" style="background-image:url(' img/slider.jpg')">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-7">
@@ -203,7 +203,7 @@ sample -->
 				</div>
 				<!-- Start End Slider -->
 				<!-- Start Single Slider -->
-				<div class="single-slider" style="background-image:url('img/slider3.jpg')">
+				<div class="single-slider" style="background-image:url(' img/slider3.jpg')">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-7">
@@ -298,7 +298,7 @@ sample -->
 				<div class="col-lg-12">
 				  <div class="section-title">
 					<h2>We Are Always Ready to Help You & Your Family</h2>
-					<img src="img/section-img.png" alt="#">
+					<img src=" img/section-img.png" alt="#">
 					<!-- <p>The Online Health and Nutrition Consultation System is a web-based platform that enables users to access professional health and nutrition advice and consultation remotely. It serves as a virtual platform where individuals can connect with qualified health and nutrition experts for personalized guidance and support. The system aims to promote healthy lifestyles, provide expert advice, and offer convenient access to healthcare services for users.</p> -->
 				  </div>
 				</div>
@@ -402,7 +402,7 @@ sample -->
 					<div class="col-lg-12">
 						<div class="section-title">
 							<h2>We Offer Different Services To Improve Your Health</h2>
-							<img src="img/section-img.png" alt="#">
+							<img src=" img/section-img.png" alt="#">
 							<p>Welcome to our platform dedicated to improving your health and well-being. We are committed to providing
 								 top-notch online health and nutrition consultation services to help you achieve your wellness goals. </p>
 						</div>
@@ -544,7 +544,7 @@ sample -->
 					<div class="col-lg-12">
 						<div class="section-title">
 							<h2>Explore Our Online Health and Nutrition Services</h2>
-							<img src="img/section-img.png" alt="#">
+							<img src=" img/section-img.png" alt="#">
 							<p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
 						</div>
 					</div>
@@ -621,7 +621,7 @@ sample -->
 					<div class="col-lg-12">
 						<div class="section-title">
 							<h2>We Provide You The Best Treatment In Resonable Price</h2>
-							<img src="img/section-img.png" alt="#">
+							<img src=" img/section-img.png" alt="#">
 							<p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
 						</div>
 					</div>
@@ -722,7 +722,7 @@ sample -->
 					<div class="col-lg-12">
 						<div class="section-title">
 							<h2>Keep up with Our Most Recent Medical News.</h2>
-							<img src="img/section-img.png" alt="#">
+							<img src=" img/section-img.png" alt="#">
 							<p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
 						</div>
 					</div>
@@ -732,7 +732,7 @@ sample -->
 						<!-- Single Blog -->
 						<div class="single-news">
 							<div class="news-head">
-								<img src="img/blog1.jpg" alt="#">
+								<img src=" img/blog1.jpg" alt="#">
 							</div>
 							<div class="news-body">
 								<div class="news-content">
@@ -748,7 +748,7 @@ sample -->
 						<!-- Single Blog -->
 						<div class="single-news">
 							<div class="news-head">
-								<img src="img/blog2.jpg" alt="#">
+								<img src=" img/blog2.jpg" alt="#">
 							</div>
 							<div class="news-body">
 								<div class="news-content">
@@ -764,7 +764,7 @@ sample -->
 						<!-- Single Blog -->
 						<div class="single-news">
 							<div class="news-head">
-								<img src="img/blog3.jpg" alt="#">
+								<img src=" img/blog3.jpg" alt="#">
 							</div>
 							<div class="news-body">
 								<div class="news-content">
@@ -788,31 +788,31 @@ sample -->
 					<div class="col-lg-12 col-md-12 col-12">
 						<div class="owl-carousel clients-slider">
 							<div class="single-clients">
-								<img src="img/client1.png" alt="#">
+								<img src=" img/client1.png" alt="#">
 							</div>
 							<div class="single-clients">
-								<img src="img/client2.png" alt="#">
+								<img src=" img/client2.png" alt="#">
 							</div>
 							<div class="single-clients">
-								<img src="img/client3.png" alt="#">
+								<img src=" img/client3.png" alt="#">
 							</div>
 							<div class="single-clients">
-								<img src="img/client4.png" alt="#">
+								<img src=" img/client4.png" alt="#">
 							</div>
 							<div class="single-clients">
-								<img src="img/client5.png" alt="#">
+								<img src=" img/client5.png" alt="#">
 							</div>
 							<div class="single-clients">
-								<img src="img/client1.png" alt="#">
+								<img src=" img/client1.png" alt="#">
 							</div>
 							<div class="single-clients">
-								<img src="img/client2.png" alt="#">
+								<img src=" img/client2.png" alt="#">
 							</div>
 							<div class="single-clients">
-								<img src="img/client3.png" alt="#">
+								<img src=" img/client3.png" alt="#">
 							</div>
 							<div class="single-clients">
-								<img src="img/client4.png" alt="#">
+								<img src=" img/client4.png" alt="#">
 							</div>
 						</div>
 					</div>
@@ -828,7 +828,7 @@ sample -->
 					<div class="col-lg-12">
 						<div class="section-title">
 							<h2>Book Your Online Consultation</h2>
-							<img src="img/section-img.png" alt="#">
+							<img src=" img/section-img.png" alt="#">
 							<p>Connect with our health and nutrition experts online for personalized advice and guidance. Take the first step towards a healthier you.</p>
 						</div>
 					</div>
@@ -902,7 +902,7 @@ sample -->
 					</div>
 					<div class="col-lg-6 col-md-12 ">
 						<div class="appointment-image">
-							<img src="img/contact-img.png" alt="#">
+							<img src=" img/contact-img.png" alt="#">
 						</div>
 					</div>
 				</div>
@@ -1027,44 +1027,44 @@ sample -->
 		<!--/ End Footer Area -->
 		
 		<!-- jquery Min JS -->
-        <script src="js/jquery.min.js"></script>
-		<!-- jquery Migrate JS -->
-		<script src="js/jquery-migrate-3.0.0.js"></script>
-		<!-- jquery Ui JS -->
-		<script src="js/jquery-ui.min.js"></script>
-		<!-- Easing JS -->
-        <script src="js/easing.js"></script>
-		<!-- Color JS -->
-		<script src="js/colors.js"></script>
-		<!-- Popper JS -->
-		<script src="js/popper.min.js"></script>
-		<!-- Bootstrap Datepicker JS -->
-		<script src="js/bootstrap-datepicker.js"></script>
-		<!-- Jquery Nav JS -->
-        <script src="js/jquery.nav.js"></script>
-		<!-- Slicknav JS -->
-		<script src="js/slicknav.min.js"></script>
-		<!-- ScrollUp JS -->
-        <script src="js/jquery.scrollUp.min.js"></script>
-		<!-- Niceselect JS -->
-		<script src="js/niceselect.js"></script>
-		<!-- Tilt Jquery JS -->
-		<script src="js/tilt.jquery.min.js"></script>
-		<!-- Owl Carousel JS -->
-        <script src="js/owl-carousel.js"></script>
-		<!-- counterup JS -->
-		<script src="js/jquery.counterup.min.js"></script>
-		<!-- Steller JS -->
-		<script src="js/steller.js"></script>
-		<!-- Wow JS -->
-		<script src="js/wow.min.js"></script>
-		<!-- Magnific Popup JS -->
-		<script src="js/jquery.magnific-popup.min.js"></script>
-		<!-- Counter Up CDN JS -->
+        <script src=" js/jquery.min.js"></script>
+		<!-- jquery M igrate JS -->
+		<script src=" js/jquery-migrate-3.0.0.js"></script>
+		<!-- jquery U i JS -->
+		<script src=" js/jquery-ui.min.js"></script>
+		<!-- Easing J S -->
+        <script src=" js/easing.js"></script>
+		<!-- Color JS  -->
+		<script src=" js/colors.js"></script>
+		<!-- Popper J S -->
+		<script src=" js/popper.min.js"></script>
+		<!-- Bootstra p Datepicker JS -->
+		<script src=" js/bootstrap-datepicker.js"></script>
+		<!-- Jquery N av JS -->
+        <script src=" js/jquery.nav.js"></script>
+		<!-- Slicknav  JS -->
+		<script src=" js/slicknav.min.js"></script>
+		<!-- ScrollUp  JS -->
+        <script src=" js/jquery.scrollUp.min.js"></script>
+		<!-- Nicesele ct JS -->
+		<script src=" js/niceselect.js"></script>
+		<!-- Tilt Jqu ery JS -->
+		<script src=" js/tilt.jquery.min.js"></script>
+		<!-- Owl Caro usel JS -->
+        <script src=" js/owl-carousel.js"></script>
+		<!-- counteru p JS -->
+		<script src=" js/jquery.counterup.min.js"></script>
+		<!-- Steller  JS -->
+		<script src=" js/steller.js"></script>
+		<!-- Wow JS - -->
+		<script src=" js/wow.min.js"></script>
+		<!-- Magnific userPopup JS -->
+		<script src=" js/jquery.magnific-popup.min.js"></script>
+		<!-- Counter  p CDN JS -->
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
 		<!-- Bootstrap JS -->
-		<script src="js/bootstrap.min.js"></script>
+		<script src=" js/bootstrap.min.js"></script>
 		<!-- Main JS -->
-		<script src="js/main.js"></script>
+		<script src=" js/main.js"></script>
     </body>
 </html>
